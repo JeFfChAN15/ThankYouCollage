@@ -1,4 +1,3 @@
-//add thank you code here
 PImage img;
 float circleX=50;
 float bounce=10;
@@ -7,9 +6,6 @@ void setup(){
 img=loadImage("camry2.jpg");
 background(img);
 }
-
-
-
 void draw() {
  image(img,0,0);
 fill(0,128,255);
@@ -17,9 +13,6 @@ textSize(100);
 text("Thx For The Car",230,90);
 img=loadImage("outside camry.jpg");
   image(img,mouseX,mouseY);
-
-
-
 //right side 
 noStroke();
 fill(255,0,0,300);
